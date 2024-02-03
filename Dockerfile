@@ -5,7 +5,7 @@ FROM fredblgr/ubuntu-novnc:22.04
 EXPOSE 80
  
 # Set the environment variable for screen resolution
-ENV RESOLUTION 1600x761
+ENV RESOLUTION 1920x1080
  
 # Start the command to run NoVNC
 CMD ["supervisord", "-c", "/etc/supervisor/supervisord.conf"]
